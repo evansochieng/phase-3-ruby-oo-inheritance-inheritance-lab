@@ -17,4 +17,12 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+#puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
+
+# Play around with code
+jim = User.new
+jim.first_name = "Jim"
+jim.last_name = "Brian"
+puts jim.teach
+
+# calling a method that is unique to a subclass on instance of parent class throws error.
